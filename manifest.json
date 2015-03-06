@@ -1,0 +1,25 @@
+{
+  // Required
+  "manifest_version": 2,
+  "name": "LWN helper",
+  "version": "1.0",
+
+  // Recommended
+  "default_locale": "en",
+  "description": "Makes LWN slightly easier to read",
+  // "icons": {},
+
+  "author": "Andrew Pollock",
+
+  "permissions": [
+     "http://lwn.net/*"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["http://lwn.net/Articles/*", "https://lwn.net/Articles/*"],
+      "js": ["lwn.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
