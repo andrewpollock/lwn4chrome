@@ -1,13 +1,15 @@
 {
-  // Required
   "manifest_version": 2,
   "name": "LWN helper",
+  "short_name": "lwn4chrome",
   "version": "1.0",
 
-  // Recommended
   "default_locale": "en",
   "description": "Makes LWN slightly easier to read",
-  // "icons": {},
+  "icons": { "16": "icon16.png",
+             "32": "icon32.png",
+             "48": "icon48.png",
+             "128": "icon128.png" },
 
   "author": "Andrew Pollock",
 
