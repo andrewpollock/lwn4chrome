@@ -1,8 +1,8 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "LWN helper",
   "short_name": "lwn4chrome",
-  "version": "1.0",
+  "version": "2.0",
 
   "default_locale": "en",
   "description": "Makes LWN slightly easier to read",
@@ -13,7 +13,7 @@
 
   "author": "Andrew Pollock",
 
-  "permissions": [
+  "host_permissions": [
      "http://lwn.net/*"
   ],
 
